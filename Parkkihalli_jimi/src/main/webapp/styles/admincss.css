@@ -1,0 +1,73 @@
+body {
+	background-color: #8a8a8a;
+	}
+h1{
+	font-size:129px;
+	text-align:center;
+	font-weight: 700;
+	font-family: Sans-serif;
+	 color: black;
+}
+#taulus{
+	color:black;
+}
+#poistologo{
+	color:red;
+}
+
+input[type="button"]{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.7rem 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+  backface-visibility: hidden;
+  border: 0.3rem solid transparent;
+  border-radius: 3rem;
+  margin-top:0.5%;
+  margin-left:0.33%;
+}
+
+input[type="button"]:hover {
+	 transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+}
+
+input[type="button"]:active {
+border-color: transparent;
+  background-color: #fff;
+  color: #000;
+  transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
+}
+
+input[type="submit"]{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.7rem 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+  backface-visibility: hidden;
+  border: 0.3rem solid transparent;
+  border-radius: 3rem;
+}
+
+input[type="submit"]:hover {
+	 transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+}
+
+input[type="submit"]:active {
+border-color: transparent;
+  background-color: #fff;
+  color: #000;
+  transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
+}
+

@@ -1,0 +1,117 @@
+body {
+	background-color:#41bee0
+	}
+h1{
+	font-size:129px;
+	text-align:center;
+	font-weight: 700;
+	font-family: Sans-serif;
+}
+h2{
+	font-size:45px;
+	text-align:center;
+	font-weight: 700;
+	font-family: Sans-serif;
+}
+
+#nappi{
+	text-align: center;
+}
+
+
+#rekkaridiv{
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+input[type="button"]{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.7rem 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+  backface-visibility: hidden;
+  border: 0.3rem solid transparent;
+  border-radius: 3rem;
+}
+
+input[type="button"]:hover {
+	 transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+}
+
+input[type="button"]:active {
+border-color: transparent;
+  background-color: #fff;
+  color: #000;
+  transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
+}
+
+input[type="submit"]{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.7rem 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+  backface-visibility: hidden;
+  border: 0.3rem solid transparent;
+  border-radius: 3rem;
+}
+
+input[type="submit"]:hover {
+	 transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+}
+
+input[type="submit"]:active {
+border-color: transparent;
+  background-color: #fff;
+  color: #000;
+  transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
+}
+
+#registrationNumber {
+    font-size: 129px;
+    text-align:center;
+    font-weight: 700;
+    width: 822px;
+    height: 216px;
+    border-width: 2px;
+    text-transform: uppercase;
+    padding-left: 60px;
+    background: url("/img/elem_regplate_fin.svg") no-repeat 0%;
+    background-size: 120px;
+    border-radius:20px;
+}
+
+#hinnoittelu {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+#hinnoittelu td, #hinnoittelu th {
+	padding:10px;
+	 text-align: center;
+	 font-size: 22px;
+}
+
+#hinnoittelu tr:nth-child(even){background-color: #f2f2f2;}
+
+#hinnoittelu th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #1c478c;
+  color: white;
+}

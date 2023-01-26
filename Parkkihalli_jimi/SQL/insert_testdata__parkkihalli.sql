@@ -1,0 +1,4 @@
+INSERT INTO PARKKIHALLI (Rekkari) VALUES
+('XXX-100'),
+('ABC-123'),
+('JJJ-400');
